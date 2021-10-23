@@ -1,18 +1,13 @@
-package leena;
 
 public class Kcg {
-	int i=0; 
-	  
-	Kcg(){  
-	i++;
-	System.out.println(i);  
-	}  
+	static int i = 10;
+	static String y = "KCG College of Technology";
 
 	public static void main(String[] args) {
-		Kcg d=new Kcg();  
-		Kcg d1=new Kcg();  
-		Kcg d2=new Kcg();  
+		System.out.println("i:"+i);
+	    System.out.println("s:"+y);
 
+		
 	}
 
 }
